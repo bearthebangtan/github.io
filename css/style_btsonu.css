@@ -43,8 +43,8 @@ body {
   .imagebanner {
     background-image: url('images/btsonu big.jpg');
     flex: 0 0 35%;
-    max-width: 100%;
-    height: inherit;
+
+    height: 200px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
