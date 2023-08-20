@@ -1,0 +1,68 @@
+body {
+	    	background-color: #140f21;
+    	}
+    	
+  
+  headerbtb {
+		  font-family: Verdana;
+		  font-size: 25px;
+		  color: #FFFFFF;
+		  text-align:center;
+		  line-height:1.80em;
+		  display: block;
+		  padding-top: 0.3em;
+		  }
+
+  footer {
+    	display:block;
+      font-family: Verdana;
+		  font-size: 12px;
+      color: #6c6877;
+      text-align:center;
+      line-height:4.5em;
+    	}
+	
+  a {
+		  text-decoration: none;
+		  }
+
+
+  .donofloaty {
+      position:fixed;
+      bottom: 20px;
+      left: 20px;
+      }  
+
+
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 2em;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    }
+
+@media screen and (max-width: 600px) {
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 700;
+    }
+}
+
+
+
+
+
+
+
+
+

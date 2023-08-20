@@ -1,0 +1,207 @@
+body {
+	    	background-color: #140f21;
+    	}
+    	
+@media only screen and (min-width: 600px){
+  .section2 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    }
+  .section3 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    }
+  
+  }
+    
+  .imgcontainer {
+    	display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		}
+
+  .centerimg {
+ 		  max-width: 150px;
+      padding: 10px;
+      opacity: 0.2;
+  		}
+
+	.contactspromo {
+    	font-family: Calibri;
+      font-size: 15px;
+		  display: block;
+      text-align:center;
+		  color: #c2aec7;
+		  text-decoration: none;
+      line-height: 0.5em;
+      padding: 5px;
+      }
+  
+  .donofloaty {
+      position:fixed;
+      bottom: 20px;
+      left: 20px;
+      }  
+	
+  headerbtb {
+		  font-family: Verdana;
+		  font-size: 25px;
+		  color: #FFFFFF;
+		  text-align:center;
+		  line-height:1.80em;
+		  display: block;
+		  }
+
+  footer {
+    	display:block;
+      font-family: Verdana;
+		  font-size: 12px;
+      color: #6c6877;
+      text-align:center;
+      line-height:4.5em;
+    	}
+	
+  a {
+		  text-decoration: none;
+		  }
+
+
+
+    /* ------------for grid------------ */
+
+  .slider {
+    	display: flex;
+    	justify-content: center;
+      }
+  .menubuttons {
+    	display: flex;
+    	justify-content: center;
+      }
+
+
+
+	/* --------------for menu button------------------ */
+	ul {
+		list-style-type: none;
+		margin: 15px;
+		padding: 20px;
+		width: 100%;
+	  }
+	li a {
+    font-family: Verdana;
+		display: block;
+    text-align:center;
+		color: #fff;
+		padding: 20px 16px;
+		text-decoration: none;
+	  }
+  li b {
+    font-family: Calibri;
+    font-size: 12px;
+		display: block;
+    text-align:center;
+		color: #6c6877;
+		text-decoration: none;
+    line-height: 0.2em;
+    }
+	/* Change the link color on hover */
+	li a:hover {
+		background-color: #1e1732;
+		color: #b3a6d3;
+	  }
+	.icon {
+		margin-right: 10px;
+	  }
+	  
+	  
+	  
+	  	/* --------------for social media buttons------------------ */
+	  	
+.wrapper{
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper .icon{
+  position: relative;
+  background-color: #8e7893;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #728891;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #bb7a7a;
+  color: #ffffff;
+}
+
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+    
+    
+    
