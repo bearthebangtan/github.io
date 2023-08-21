@@ -41,7 +41,7 @@ body {
   }
   
   .imagebanner {
-    background-image: url('https://www.denofgeek.com/wp-content/uploads/2021/06/bts-bon-voyage.jpeg?fit=1600%2C1067');
+    background-image: url('images/btsonu big.jpg');
     flex: 0 0 35%;
     height: 195px;
     background-size: contain;
