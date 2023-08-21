@@ -50,8 +50,9 @@ body {
 	.imagebanner img {
 		display: block;
 		margin: 0 auto;
-		height: 200px;
-		width: 355.56px;
+		width: 260px;
+		background-size: contain;
+		
 	}
   
   .series-info {
@@ -96,20 +97,18 @@ body {
 
 /* Tabs */
 
+.wrappermain {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
 .wrapper {
   box-sizing: border-box;
   font-family: Tahoma;
-  height: 100%;
-  width: 50%;
-  padding-bottom: 10px;
-}
-@media only screen and (max-width: 600px){
-  .wrapper {
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    }
-}
+	scale: 2;
+  }
+
 
 .tab-container {
       display: flex;
