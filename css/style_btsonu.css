@@ -96,7 +96,9 @@ body {
 
 .wrappermain {
 	display: flex;
-	align-items: center;
+	position: relative;
+	height: 450px;
+	width: 100%;
 	padding-bottom: 10px;
 }
 
