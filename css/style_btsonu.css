@@ -1,5 +1,5 @@
 body {
-	    	background-color: #140f21;
+	    background-color: #140f21;
     	}
     	
   
@@ -35,21 +35,23 @@ body {
     align-items: center;
     height: 200px;
     padding: 5px;
+	 	overflow: hidden;
     background-color: #0a0711;
     margin-top: 40px;
     margin-bottom: 80px;
   }
   
   .imagebanner {
-    background-image: url('images/btsonu big.jpg');
-    flex: 0 0 35%;
-    width:260px;
-    height: 180px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative; /* Adding this for relative positioning */
-  }
+    flex: 35%;
+    max-height: 100%;
+    object-fit: contain;
+		background-color: #0a0711;
+   }
+	.imagebanner img {
+		display: block;
+		margin: 0 auto;
+		max-height: 100%;
+	}
   
   .series-info {
     font-family: Verdana;
