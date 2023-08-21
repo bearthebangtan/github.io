@@ -43,8 +43,7 @@ body {
   .imagebanner {
     background-image: url('images/btsonu big.jpg');
     flex: 0 0 35%;
-
-    height: 200px;
+    height: 290px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,20 +150,21 @@ body {
   transition: top 0.25s;
 }
 .tab-content {
-  height: 240px;
-  width: 450px;
+  height: 270px;
+  width: 480px;
   display: flex;
   justify-content: center;
   position: absolute;
   z-index: 1;
   top: 2.75em;
   left: 0;
-  padding: 1.618rem;
+  padding: 10px;
   background: #0a0711;
   color: #ffffff;
   opacity: 0;
   transition: all 0.35s;
 }
+
 .tab-switch:checked + .tab-label {
   background: #0a0711;
   color: #ffffff;
@@ -181,11 +181,8 @@ body {
 }
 
 iframe {
-  height: 236.25px;
-  width: 420px;
-  
-}
-
-
+  height: 270px;
+  width: 480px;
+  }
 
 
