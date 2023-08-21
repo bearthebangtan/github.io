@@ -41,9 +41,9 @@ body {
   }
   
   .imagebanner {
-    background-image: url('images/btsonu big.jpg');
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2021/06/bts-bon-voyage.jpeg?fit=1600%2C1067');
     flex: 0 0 35%;
-    height: 290px;
+    height: 195px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body {
   box-sizing: border-box;
   font-family: Tahoma;
   height: 100%;
-  width: 35%;
+  width: 50%;
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 600px){
@@ -117,7 +117,7 @@ body {
   position: relative;
   margin-bottom: 50px;
   background: #140f21;
-  height: 300px;
+  height: 420px;
 }
 .tabs::before,
 .tabs::after {
@@ -150,8 +150,8 @@ body {
   transition: top 0.25s;
 }
 .tab-content {
-  height: 270px;
-  width: 480px;
+  height: 405px;
+  width: 720px;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -181,8 +181,7 @@ body {
 }
 
 iframe {
-  height: 270px;
-  width: 480px;
+  height: 405px;
+  width: 720px;
   }
-
 
