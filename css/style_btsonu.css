@@ -44,8 +44,7 @@ body {
   }
   .banner-image img {
     display: block;
-    max-width: 500px;
-
+    max-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,7 +54,7 @@ body {
   
   .series-info {
     font-family: Verdana;
-    flex: 1;
+    flex: 65%;
     padding-left: 20px;
     color: #ffffff;
     }
