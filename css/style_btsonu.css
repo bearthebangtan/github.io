@@ -219,6 +219,17 @@ body {
   max-width: 800px;
 }
 
+@media screen and (max-width: 600px) {
+	iframe {
+  margin: 0 auto;
+  display: block;
+  max-width: 450px;
+  }
+  .tab__content {
+  padding: 10px 10px;
+  }
+}
+
 .container > *:not(.tab-wrap) {
   padding: 0 80px;
 }
