@@ -44,16 +44,13 @@ body {
   }
   .banner-image img {
     display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    max-width: 500px;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
 
   
   .series-info {
@@ -223,7 +220,7 @@ body {
 	iframe {
   margin: 0 auto;
   display: block;
-  max-width: 460px;
+  max-width: 400px;
   }
   .tab__content {
   padding: 10px 10px;
