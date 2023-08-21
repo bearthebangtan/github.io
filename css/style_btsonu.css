@@ -41,17 +41,11 @@ body {
   }
   
   .imagebanner {
+		background-image: url('images/btsonu big.jpg');
     flex: 35%;
-    max-height: 100%;
+		width:260px;
+    height: 180px;
     object-fit: contain;
-		background-color: #0a0711;
-   }
-	.imagebanner img {
-		display: block;
-		margin: 0 auto;
-		width: 260px;
-		background-size: contain;
-		
 	}
   
   .series-info {
@@ -101,6 +95,12 @@ body {
 	align-items: center;
 	padding-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .wrappermain {
+      scale: 0.5;
+      }
+    }
 
 .wrapper {
   box-sizing: border-box;
