@@ -41,12 +41,16 @@ body {
   }
   
   .imagebanner {
-		background-image: url('images/btsonu big.jpg');
     flex: 35%;
-		width:260px;
-    height: 180px;
+		max-height: 200px;
     object-fit: contain;
 	}
+.imgban {
+	background-image: url('images/btsonu big.jpg');
+	display: block;
+	margin: 0 auto;
+	background-size: contain;
+}
   
   .series-info {
     font-family: Verdana;
@@ -99,6 +103,7 @@ body {
 @media screen and (max-width: 600px) {
     .wrappermain {
       scale: 0.5;
+			float: left;
       }
     }
 
