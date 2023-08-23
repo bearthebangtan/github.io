@@ -1,5 +1,5 @@
 body {
-	    background-color: #140f21;
+	    	background-color: #140f21;
     	}
     	
   
@@ -21,116 +21,47 @@ body {
       text-align:center;
       line-height:4.5em;
     	}
+	
+  a {
+		  text-decoration: none;
+		  }
+
 
   .donofloaty {
       position:fixed;
       bottom: 20px;
       left: 20px;
-			z-index: 2;
-      }
+      }  
 
 
-
-
-.banner {
-    display: flex;
-    align-items: center;
-    height: 200px;
-    overflow: hidden;
-  }
-  .banner-image {
-    flex: 35%;
-    max-height: 100%;
-    position: relative;
-  }
-  .banner-image img {
-    display: block;
-    max-width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  
-  .series-info {
-    font-family: Verdana;
-    flex: 65%;
-    padding-left: 20px;
-    color: #ffffff;
-    }
-  
-  .series-title {
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
     font-size: 20px;
-    margin-top: 5px;
+    line-height: 2em;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 10px;
     font-weight: 700;
-  }
-  .episode-info {
-    font-size: 15px;
-    color: #ffd966;
-    margin-top: 5px;
-    margin-bottom: 90px;
-  }
-  .bottom-row {
-    display: flex;
-    justify-content: space-between;
-    color: #9993aa; /* Off-white color for bottom-row text */
-    font-size: 10px; /* Font size for bottom-row text */
-    margin-right: 30px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .bottom-row {
-      margin-right:10px;
-      }
     }
-  
-  .info-item {
-    text-align: center;
-    background: #342756;
-    border-radius: 10px;
-    padding: 5px;
-    
-  }
+
+@media screen and (max-width: 600px) {
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 700;
+    }
+}
 
 
 
 
 
-/* Buttonslist */
-
-  .episode-list {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: Helvetica, sans-serif;
-  }
-
-  .episode-button {
-    display: block;
-    width: 100%;
-    background-color: #140f21;
-    color: white;
-    font-size: 16px;
-    padding: 15px 15px;
-    margin-bottom: 2px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    text-align: left;
-    text-decoration: none;
-  }
-
-  .episode-button:hover {
-    background-color: #0a0711;
-    color: #cdcdce;
-  }
-
-  .episode-icon {
-    margin-right: 15px;
-  }
-
-
-/* Boring stuff */
 
 .container {
   margin: 0 auto;
@@ -177,4 +108,48 @@ body {
   }
 
 
+
+/* QNA */
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page__wrapper {
+	height: auto;
+	display: flex;
+	align-items: center;
+	font-family: Helvetica;
+	flex-direction: column;
+  margin:40px;
+}
+
+.accordion {
+	max-width: 500px;
+	width: calc(100% - 20px);
+}
+details {
+	background-color: #1E1E1E;
+	margin-bottom: 10px;
+	filter: drop-shadow(5px 5px 0px #0A0A0A);
+}
+details:hover {
+	filter: drop-shadow(5px 5px 4px #0A0A0A);
+}
+details > summary {
+	color: #f4de64;
+	padding: 5px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+details > p {
+	padding: 5px 10px 10px 20px;
+	color: #ddd;
+	font-size: 13px;
+}
 
