@@ -101,7 +101,7 @@ body {
 
 /* Variables */
 :root {
-  --max-tab-count: 5;
+  --max-tab-count: 10;
   --tab-wrap-border-radius: 6px;
 }
 
@@ -115,7 +115,7 @@ body {
   position: relative;
   list-style: none;
   background-color: #0a0711;
-  margin: 40px 0;
+  margin: 5px 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -134,7 +134,25 @@ body {
 .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2),
 .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3),
 .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4),
-.tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+.tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5),
+.tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6),
+.tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+  opacity: 1;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+
+.tab:checked:nth-of-type(1) ~ .tab__content__inside:nth-of-type(1),
+.tab:checked:nth-of-type(2) ~ .tab__content__inside:nth-of-type(2),
+.tab:checked:nth-of-type(3) ~ .tab__content__inside:nth-of-type(3),
+.tab:checked:nth-of-type(4) ~ .tab__content__inside:nth-of-type(4),
+.tab:checked:nth-of-type(5) ~ .tab__content__inside:nth-of-type(5),
+.tab:checked:nth-of-type(6) ~ .tab__content__inside:nth-of-type(6),
+.tab:checked:nth-of-type(7) ~ .tab__content__inside:nth-of-type(7) {
   opacity: 1;
   transition: 0.5s opacity ease-in, 0.8s transform ease;
   position: relative;
@@ -186,7 +204,7 @@ body {
   height: 50px;
   box-sizing: border-box;
   padding: 15px;
-    font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: #919191;
 }
 
@@ -207,12 +225,41 @@ body {
   border-radius: var(--tab-wrap-border-radius);
 }
 
+
+.tab__content__inside {
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+  left: 0;
+  transform: translateY(-3px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Boring stuff */
 
 .container {
   margin: 0 auto;
   display: block;
   max-width: 800px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 800px) {
@@ -290,5 +337,6 @@ iframe {
     background-color: #000000;
     color: #9d9b9f;
   }
+
 
 
