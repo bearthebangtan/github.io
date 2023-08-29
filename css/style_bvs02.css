@@ -1,0 +1,180 @@
+body {
+	    background-color: #140f21;
+    	}
+    	
+  
+  headerbtb {
+		  font-family: Verdana;
+		  font-size: 25px;
+		  color: #FFFFFF;
+		  text-align:center;
+		  line-height:1.80em;
+		  display: block;
+		  padding-top: 0.3em;
+		  }
+
+  footer {
+    	display:block;
+      font-family: Verdana;
+		  font-size: 12px;
+      color: #6c6877;
+      text-align:center;
+      line-height:4.5em;
+    	}
+
+  .donofloaty {
+      position:fixed;
+      bottom: 20px;
+      left: 20px;
+			z-index: 2;
+      }
+
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+  }
+  .banner-image {
+    flex: 35%;
+    max-height: 100%;
+    position: relative;
+  }
+  .banner-image img {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .series-info {
+    font-family: Verdana;
+    flex: 65%;
+    padding-left: 20px;
+    color: #ffffff;
+    }
+  
+  .series-title {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+  }
+  .episode-info {
+    font-size: 15px;
+    color: #ffd966;
+    margin-top: 5px;
+    margin-bottom: 90px;
+  }
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    color: #9993aa; /* Off-white color for bottom-row text */
+    font-size: 10px; /* Font size for bottom-row text */
+    margin-right: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .bottom-row {
+      margin-right:10px;
+      }
+    }
+  
+  .info-item {
+    text-align: center;
+    background: #342756;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+
+
+
+
+
+/* Buttonslist */
+
+  .episode-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .episode-button {
+    display: block;
+    width: 100%;
+    background-color: #140f21;
+    color: white;
+    font-size: 16px;
+    padding: 15px 15px;
+    margin-bottom: 2px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .episode-button:hover {
+    background-color: #0a0711;
+    color: #cdcdce;
+  }
+
+  .episode-icon {
+    margin-right: 15px;
+  }
+
+
+/* Boring stuff */
+
+.container {
+  margin: 0 auto;
+  display: block;
+  max-width: 800px;
+}
+
+
+
+.container > *:not(.tab-wrap) {
+  padding: 0 80px;
+}
+
+
+
+/* Buttons */
+
+.buttonssection {
+  margin-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-left:20px;
+  margin-top: 10px;
+  border-radius: 10px;
+    background-color: #0a0711;
+    color: #cdcdce;
+    font-family: Helvetica, sans-serif;
+  font-size: 14px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #000000;
+    color: #9d9b9f;
+  }
+
+
+
