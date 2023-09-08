@@ -55,6 +55,20 @@ body {
     
   }
 
+@media screen and (max-width: 600px) {
+    .banner-image img {
+    display: block;
+      width: 100%;
+    height: auto;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      }
+    }
+
+
   
   .series-info {
     font-family: Verdana;
@@ -86,14 +100,13 @@ body {
     .bottom-row {
       margin-right:10px;
       }
-
     }
   
   .info-item {
     text-align: center;
     background: #342756;
     border-radius: 10px;
-    padding: 5px; 
+    padding: 5px;
     
   }
 
