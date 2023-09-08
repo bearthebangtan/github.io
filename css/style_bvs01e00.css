@@ -37,6 +37,7 @@ body {
     align-items: center;
     height: 200px;
     overflow: hidden;
+  
   }
   .banner-image {
     flex: 35%;
@@ -45,11 +46,13 @@ body {
   }
   .banner-image img {
     display: block;
-    max-width: 100%;
+    width: auto;
+    height: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
   }
 
   
