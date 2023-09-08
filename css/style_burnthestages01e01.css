@@ -44,7 +44,7 @@ body {
     max-height: 100%;
     position: relative;
   }
-  .banner-image img {
+    .banner-image img {
     display: block;
     width: auto;
     height: 200px;
@@ -54,6 +54,19 @@ body {
     transform: translate(-50%, -50%);
     
   }
+
+@media screen and (max-width: 600px) {
+    .banner-image img {
+    display: block;
+      width: 100%;
+    height: auto;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      }
+    }
 
   
   .series-info {
