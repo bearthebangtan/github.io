@@ -55,7 +55,7 @@ body {
     
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .banner-image img {
     display: block;
       width: 100%;
