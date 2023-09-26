@@ -1,0 +1,159 @@
+body {
+	    	background-color: #140f21;
+    	}
+    	
+  
+  headerbtb {
+		  font-family: Verdana;
+		  font-size: 25px;
+		  color: #FFFFFF;
+		  text-align:center;
+		  line-height:1.80em;
+		  display: block;
+		  padding-top: 0.3em;
+		  }
+
+  footer {
+    	display:block;
+      font-family: Verdana;
+		  font-size: 12px;
+      color: #6c6877;
+      text-align:center;
+      line-height:4.5em;
+    	}
+	
+  a {
+      color: #6495ed;
+		  }
+
+
+  .donofloaty {
+      position:fixed;
+      bottom: 20px;
+      left: 20px;
+      }  
+
+
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 18px;
+    line-height: 2px;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 2px;
+    font-weight: 700;
+    }
+
+@media screen and (max-width: 600px) {
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 18px;
+    line-height: 2px;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2px;
+    font-weight: 700;
+    }
+}
+
+
+  .subtitlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 15px;
+    line-height: 2px;
+    margin-left: 4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    }
+
+@media screen and (max-width: 600px) {
+  .subtitlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 15px;
+    line-height: 2px;
+    margin-left: 1em;
+    margin-top: 20px;
+    margin-bottom: 2em;
+    font-weight: 700;
+    }
+}
+
+
+
+.container {
+  margin: 0 auto;
+  display: block;
+  max-width: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+.container > *:not(.tab-wrap) {
+  padding: 0 80px;
+}
+
+.sectitle {
+  font-family: Helvetica;
+  color: #fcbe11;
+  font-size: 15px;
+  line-height: 40px;
+  margin-left: 4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.sectext {
+  font-family: Helvetica;
+  color: #b7bac5;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 4em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+
+/* Buttons */
+
+.buttonssection {
+  margin-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-left:20px;
+  margin-top: 10px;
+  border-radius: 10px;
+    background-color: #0a0711;
+    color: #cdcdce;
+    font-family: Helvetica, sans-serif;
+  font-size: 14px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #000000;
+    color: #9d9b9f;
+  }
+
+
+
+
+
