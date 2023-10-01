@@ -151,7 +151,9 @@ body {
 .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4),
 .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5),
 .tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6),
-.tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+.tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7),
+.tab:checked:nth-of-type(8) ~ .tab__content:nth-of-type(8),
+.tab:checked:nth-of-type(9) ~ .tab__content:nth-of-type(9) {
   opacity: 1;
   transition: 0.5s opacity ease-in, 0.8s transform ease;
   position: relative;
@@ -167,7 +169,9 @@ body {
 .tab:checked:nth-of-type(4) ~ .tab__content__inside:nth-of-type(4),
 .tab:checked:nth-of-type(5) ~ .tab__content__inside:nth-of-type(5),
 .tab:checked:nth-of-type(6) ~ .tab__content__inside:nth-of-type(6),
-.tab:checked:nth-of-type(7) ~ .tab__content__inside:nth-of-type(7) {
+.tab:checked:nth-of-type(7) ~ .tab__content__inside:nth-of-type(7),
+.tab:checked:nth-of-type(8) ~ .tab__content__inside:nth-of-type(8),
+.tab:checked:nth-of-type(9) ~ .tab__content__inside:nth-of-type(9) {
   opacity: 1;
   transition: 0.5s opacity ease-in, 0.8s transform ease;
   position: relative;
@@ -352,6 +356,5 @@ iframe {
     background-color: #000000;
     color: #9d9b9f;
   }
-
 
 
